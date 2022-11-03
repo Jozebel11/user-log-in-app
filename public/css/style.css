@@ -1,0 +1,111 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #463f3a;
+}
+
+.header_title > a {
+    text-decoration: none;
+    color: #463f3a;
+    
+}
+.logo-image {
+    height: 100px;
+}
+
+.btn {
+    background-color: #e0afa0;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    background-color: #f4f3ee;
+    color: #e0afa0;
+}
+
+.mt-5 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.post-container{
+    padding: 5px 0px;
+    background-color: #f4f3ee;
+    border-radius: 5px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.16);
+}
+
+.post-btn {
+    background-color: #f4f3ee;
+    color: #e0afa0;
+    font-size: 18px;
+}
+
+.post-btn:hover {
+    color: #8a817c;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid #bcb8b1 ;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-btn {
+    max-width: 50px;
+    background-color: transparent;
+    color: #e0afa0;
+    font-size: 20px;
+}
+.post-btns {
+    position: relative;
+}
+
+.likes {
+    position: absolute;
+    top: 9px;
+    left: 40px;
+    font-size: 14px;
+    color: #463f3a;
+    width: 100px;
+    
+}
+
+.post-title {
+    text-align: center;
+    color: #463f3a;
+}
+
+.intro-greeting{
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 20px;
+}
+
+.profile-info {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    left: 120px;
+    top: 120px;
+}
+
+.caption-post {
+   margin-bottom: 50px;
+   margin-top: -30px;
+   width: 200%;
+   font-size: 20px;
+   
+}
+
+
+
