@@ -5,7 +5,6 @@
           <div class="profile-info">
               <p class="intro-greeting"><strong>Hello</strong> <%= user.userName %>!</p>
               <p><strong>Email</strong>: <%= user.email %></p>
-              <a href="/logout" class="col-3 btn btn-primary">Logout</a>
           </div>
           <div class="mt-5">
             <h2>Add a post</h2>
@@ -36,7 +35,8 @@
           </li>
         <% } %>
         </ul>
-      </div>  
+      </div> 
+      <a href="/logout" class="logout-btn col-3 btn btn-primary">Logout</a>
     </div>
   </div>
 </div>

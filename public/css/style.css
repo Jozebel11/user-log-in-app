@@ -94,8 +94,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    flex-wrap: wrap;
-    left: 120px;
+    
+    left: 20px;
     top: 120px;
 }
 
@@ -107,5 +107,15 @@ body {
    
 }
 
+.logout-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    max-width: 100px;
+}
+
+.home-login-btn {
+    margin-bottom: 30px;
+}
 
 
