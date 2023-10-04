@@ -6,13 +6,13 @@ const postsController = require("../controllers/posts");
 const { ensureAuth, ensureGuest } = require("../middleware/auth");
 
 //Main Routes - simplified for now
-router.get("/api", homeController.getIndex);
-router.get("/api/profile", ensureAuth, postsController.getProfile);
-router.get("/api/feed", ensureAuth, postsController.getFeed);
-router.get("/api/login", authController.getLogin);
-router.post("/api/login", authController.postLogin);
-router.get("/api/logout", authController.logout);
-router.get("/api/signup", authController.getSignup);
-router.post("/api/signup", authController.postSignup);
+router.get("/", homeController.getIndex);
+router.get("/profile", ensureAuth, postsController.getProfile);
+router.get("/feed", ensureAuth, postsController.getFeed);
+router.get("/login", authController.getLogin);
+router.post("/login", authController.postLogin);
+router.get("/logout", authController.logout);
+router.get("/signup", authController.getSignup);
+router.post("/signup", authController.postSignup);
 
 module.exports = router;
