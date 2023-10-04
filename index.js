@@ -20,12 +20,13 @@ require("./config/passport")(passport);
 //Connect To Database
 connectDB();
 
+//Static Folder
+app.use(express.static(__dirname + "public"));
+
 //Using EJS for views
 app.set('views', __dirname + '/views')
 app.set("view engine", "ejs");
 
-//Static Folder
-app.use(express.static("public"));
 
 //Body Parsing
 app.use(express.urlencoded({ extended: true }));
