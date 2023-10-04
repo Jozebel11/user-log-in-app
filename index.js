@@ -21,7 +21,7 @@ require("./config/passport")(passport);
 connectDB();
 
 //Static Folder
-app.use(express.static(__dirname + "public"));
+app.use(express.static(__dirname + "/public"));
 
 //Using EJS for views
 app.set('views', __dirname + '/views')
